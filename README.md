@@ -1,1 +1,3 @@
-A repo for learning node.js.
+A branch for read file simple demo:
+- syncRead
+- asyncRead
