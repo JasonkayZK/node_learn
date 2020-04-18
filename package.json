@@ -1,0 +1,24 @@
+{
+    "name": "jasonkay_hello_npm",
+    "version": "0.0.1",
+    "description": "A module for learning purpose.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JasonkayZK/node_learn.git"
+    },
+    "keywords": [
+        "helloworld",
+        "learning",
+        "test"
+    ],
+    "author": "Jasonkay",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/JasonkayZK/node_learn/issues"
+    },
+    "homepage": "https://github.com/JasonkayZK/node_learn#readme"
+}
