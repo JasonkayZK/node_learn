@@ -1,0 +1,43 @@
+{
+    "main": "lib/interface.js",
+    "name": "somepackage",
+    "description": "Sample package for CommonJS. This package demonstrates the required elements if a CommonJS package.",
+    "version": "1.0.0",
+    "keywords": [
+        "package",
+        "example"
+    ],
+    "maintainers": [
+        {
+            "name": "Jasonkay",
+            "email": "271226192@qq.com"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Jasonkay",
+            "web": "https://jasonkayzk.github.io/"
+        }
+    ],
+    "bugs": {
+        "email": "271226192@qq.com",
+        "web": "https://github.com/JasonkayZK/node_learn/issues"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/JasonkayZK/node_learn/LICENSE/"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/JasonkayZK/node_learn/"
+        }
+    ],
+    "dependencies": {
+        "webkit": "1.2",
+        "gnutls": "2.0",
+        "openssl": "0.9.8"
+    }
+}
