@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <% include ../partials/head %>
+</head>
+
+<body>
+    <% include ../partials/nav %>
+    <div class="container" style="padding-top: 40px;">
+        <div class="panel panel-default">
+            <div class="panel-heading">用户名</div>
+            <div class="panel-body">
+                <%= user.name %>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">用户邮箱</h3>
+            </div>
+            <div class="panel-body">
+                <%= user.email %>
+            </div>
+        </div>
+
+        <div class="page-header">
+            <h1>历史博文：</h1>
+        </div>
+
+        <div class="row">
+            <% posts.forEach(function(post){ %>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail" style="overflow: hidden;">
+                        <div class="caption">
+                            <h3><%= post.post %></h3>
+                            <p><%= post.time %></p>
+                        </div>
+                    </div>
+                </div>
+            <% }) %>
+        </div>
+    </div>
+</body>
+</html>

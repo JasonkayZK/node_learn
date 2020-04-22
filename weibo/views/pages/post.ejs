@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <% include ../partials/head %>
+</head>
+
+<body>
+<% include ../partials/nav %>
+<div class="container" style="padding-top: 80px;">
+    <form action="/post" method="post">
+        <div class="form-group">
+            <label for="exampleInputEmail1">请发表内容</label>
+            <textarea class="form-control" name="post" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+</div>
+</body>
+</html>
