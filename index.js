@@ -46,7 +46,7 @@ async function checkPermission(ip) {
         try {
             await doBlock(ip);
         } catch (err) {
-            console.error("execute isOverLimit err:", err)
+            console.error("execute doBlock err:", err)
         }
         return false
     }
