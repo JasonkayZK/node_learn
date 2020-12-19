@@ -21,7 +21,7 @@ client.on('connect', () => {
 });
 
 app.post('/', (req, res) => {
-    res.send('Post has rate limit!')
+    res.send('Post has no rate limit!')
 })
 
 app.get('/', async (req, res) => {
