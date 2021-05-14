@@ -4,4 +4,5 @@
 
 ### 相关文章
 
-- [Promise中的all、race和any](https://jasonkayzk.github.io/2021/05/14/Promise中的all、race和any/)
+- Github Pages: [Promise中的all、race和any](https://jasonkayzk.github.io/2021/05/14/Promise中的all、race和any/)
+- 国内Gitee镜像：[Promise中的all、race和any](https://jasonkay.gitee.io/2021/05/14/Promise中的all、race和any/)
